@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-body {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit:cover;
+}
+
+#img-avatar {
+    width: 200px;
+}
+
+#hero {
+    background-image: url("Images/Header.jpg");
+    height: 400px;
+    background-size: cover;
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: clip;
+    background-position-y: center;
+}
+
+#title {
+    background-color: #457B9D;
+    color: whitesmoke;
+    padding: 10px 20px;
+    margin: 150px 0px 10px 0px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+#subtitle{
+    background-color: #1D3557;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+.main-body {
+    margin: none;
+    padding-top: 20px;
+    background-color: #b0d0d3;
+}
+
+.locations {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.loc-text {
+    width: 200px;
+}
+
+.loc {
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.loc a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.loc:hover {
+    background-color: #457B9D;
+    color: whitesmoke;
+    box-shadow: 0px 0px 20px yellow;
+}
+
+#id-card {
+    display: flex;
+    justify-content: space-evenly;
+    width: 650px;
+    margin: 20px auto;
+    flex-direction: row-reverse;
+    background-color: #1D3557;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 50px;
+    border-bottom: 20px solid #457B9D;
+    border-right: 20px solid #457B9D;
+}
+
+#bio {
+    width: 400px;
+}
+
+#img-avatar {
+    border-radius: 40px;
+}
