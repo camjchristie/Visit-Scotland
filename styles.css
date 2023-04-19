@@ -19,6 +19,7 @@ body{
     background-image: url("Images/Header.jpg");
     height: 400px;
     background-size: cover;
+    border-radius: 100%/0 0 30px 30px;
     margin: none;
     display: flex;
     flex-direction: column;
